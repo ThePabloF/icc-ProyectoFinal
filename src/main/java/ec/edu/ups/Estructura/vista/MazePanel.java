@@ -50,8 +50,8 @@ public class MazePanel extends JPanel {
      * @param paramInt2 El número de columnas para el laberinto.
      */
     public MazePanel(int paramInt1, int paramInt2) {
-        this.rows = paramInt1;
-        this.cols = paramInt2;
+        this.rows = paramInt1; // parametro 1
+        this.cols = paramInt2; // parametro 2
         this.cells = new Cell[paramInt1][paramInt2];
         this.buttons = new JButton[paramInt1][paramInt2];
         setLayout(new GridLayout(paramInt1, paramInt2)); // Establece un GridLayout para organizar los botones.
